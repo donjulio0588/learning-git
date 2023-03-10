@@ -37,7 +37,7 @@ class DataCollection<T extends {id: number, name: string}> {
 
 const personCollection = new DataCollection<Product>();
 
-personCollection.addItem({id: 1, name: 'Julio', price: 254})
+personCollection.addItem({id: 1, name: 'Julio A.', price: 254})
 personCollection.addItem({id: 2, name: 'Paco', price: 412})
 personCollection.addItem({id: 3, name: 'Felipe', price: 212})
 personCollection.addItem({id: 4, name: 'Lorenzo', price: 475})
