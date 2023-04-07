@@ -1,5 +1,9 @@
-const saludo = (data:string): string => {
-    return `Hola Don ${data}`
+let randomNumbers: number[] = [];
+let nextNumber: number;
+
+for (let i = 0; i < 10; i++) {
+    nextNumber = Math.floor(Math.random() * (100 - 1)) + 1;
+    randomNumbers.push(nextNumber);
 }
 
-console.log(saludo('Julio'))
+console.log(randomNumbers);
